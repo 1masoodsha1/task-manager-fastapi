@@ -57,7 +57,9 @@ FE
 2. Install dependencies:
    ```bash
    python -m venv .venv
-   pip install -r backend/requirements.txt
+   .venv\Scripts\activate
+   pip install -r requirements.txt
+   python run.py
    ```
 3. Start the development server:
    ```
