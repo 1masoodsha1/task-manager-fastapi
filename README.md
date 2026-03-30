@@ -56,7 +56,8 @@ FE
    ```
 2. Install dependencies:
    ```bash
-   npm install
+   python -m venv .venv
+   pip install -r backend/requirements.txt
    ```
 3. Start the development server:
    ```
