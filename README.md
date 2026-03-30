@@ -69,9 +69,9 @@ FE
 The backend exposes a simple REST API for managing tasks under the base path:
 
 ```text
-GET    /api/tasks            → list all tasks
-GET    /api/tasks/<pk>/      → Get one task 
-POST   /api/tasks            → create a new task, returns created resource (201)
-PUT    /api/tasks/<pk>/      → update an existing task
-DELETE /api/tasks/<pk>/      → delete a task 
+GET     /api/tasks/             List all tasks
+POST    /api/tasks/             Create a new task
+GET     /api/tasks/{task_id}/   Get one task by ID
+PUT     /api/tasks/{task_id}/   Update a task by ID
+DELETE  /api/tasks/{task_id}/   Delete a task by ID
 ```
