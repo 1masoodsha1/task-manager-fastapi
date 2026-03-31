@@ -35,7 +35,6 @@ def seed_tasks() -> None:
             ("Do laundry", "Wash clothes and fold them in the evening.", "IN_PROGRESS", (now + timedelta(hours=8)).isoformat()),
             ("Clean the room", "Vacuum the floor and organize the desk.", "TODO", (now + timedelta(days=2)).isoformat()),
             ("Pay electricity bill", "Check the online account and make the payment.", "TODO", (now + timedelta(days=3)).isoformat()),
-            ("Call mom", "Ask how she is doing and check in.", "DONE", (now - timedelta(hours=3)).isoformat()),
         ]
 
         cur.executemany(

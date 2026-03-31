@@ -46,8 +46,10 @@ BE
 2. Start the FastAPI application:
 
    ```bash
+   python -m venv .venv
+   .venv\Scripts\activate
    pip install -r requirements.txt
-   py run.py
+   python run.py
    ```
 FE
 1. Navigate to the frontend directory:
@@ -56,10 +58,7 @@ FE
    ```
 2. Install dependencies:
    ```bash
-   python -m venv .venv
-   .venv\Scripts\activate
-   pip install -r requirements.txt
-   python run.py
+   npm install
    ```
 3. Start the development server:
    ```
