@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f59855cd-422f-453f-a410-970cbb327f46" name="Changes" comment="Fix port on frontend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/seed.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/seed.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
